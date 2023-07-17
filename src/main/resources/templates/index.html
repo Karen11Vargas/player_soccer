@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${titulo}"></title>
+</head>
+<body>
+    <h1>Jugadores de Equipos</h1>
+    <div th:if="${jugador != null}">
+        <h3>El jugador es: <span style="color: chocolate;" th:text="${jugador.nombre}"></span></h3>
+        <h3>Su numero es: <span style="color: rgb(113, 173, 184);" th:text="${jugador.numero}"></span></h3>
+    </div>
+    <div th:unless="${jugador != null}">
+        <h3>No hay información de jugador disponible.</h3>
+    </div>
+</body>
+</html>

@@ -1,12 +1,6 @@
 <h1 align="center"><b>🖥️ Primer ejercicio con  SpringBoot</b></h1>
 <h3>🌼 Ejericios de jugadores con springboot/h3><br>
 
-<p align="center"><img src="archivos/img/1.png" width="600"/></p> 
-<p align="center"><img src="archivos/img/2.png" width="600"/></p> 
-<p align="center"><img src="archivos/img/3.png" width="600"/></p>
-<p align="center"><img src="archivos/img/4.png" width="600"/></p>
-<p align="center"><img src="archivos/img/5.png" width="600"/></p>
-
 ## Construido con 🛠️
 
 _Herramientas Utilizadas_
